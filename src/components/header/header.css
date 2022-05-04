@@ -1,0 +1,27 @@
+.Header-Container {
+    background-color: lightblue;
+  }
+  
+  .Header {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Header input {
+    border: none;
+    border-radius: 0.2rem;
+    width: 30%;
+    padding: 0.3rem;
+    outline: none;
+  }
+  .cart-Icon {
+    cursor: pointer;
+    font-size: 20px;
+    transition: all .1s ease-in-out;
+  }
+  .cart-Icon:hover {
+    transform: scale(1.2);
+  }
+  
